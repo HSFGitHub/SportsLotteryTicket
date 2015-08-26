@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AWc-AA-Xji">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Lottery Information Controller-->
+        <scene sceneID="qXM-oM-PZA">
+            <objects>
+                <navigationController id="AWc-AA-Xji" customClass="HSFLotteryInformationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8DW-bB-Cwi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5Gb-a0-6cH" kind="relationship" relationship="rootViewController" id="UUR-LJ-iEP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mhP-qf-NyL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-743" y="339"/>
+        </scene>
+        <!--开奖信息-->
+        <scene sceneID="VZR-Yx-n98">
+            <objects>
+                <viewController id="5Gb-a0-6cH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2uE-WJ-zLk"/>
+                        <viewControllerLayoutGuide type="bottom" id="axA-cg-mfS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vsA-Uv-iqQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="开奖信息" id="zuo-tW-chY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTE-T1-14I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-240" y="166"/>
+        </scene>
+    </scenes>
+</document>

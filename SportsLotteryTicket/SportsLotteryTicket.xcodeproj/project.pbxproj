@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91429581B8C94A900D384C5 /* HSFHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91429571B8C94A900D384C5 /* HSFHallTableViewController.m */; };
+		D954A22C1B8D4EEC00A43451 /* HSFDownArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = D954A22B1B8D4EEC00A43451 /* HSFDownArrow.m */; };
+		D954A2321B8D562C00A43451 /* UIView+HSFView.m in Sources */ = {isa = PBXBuildFile; fileRef = D954A2311B8D562C00A43451 /* UIView+HSFView.m */; };
+		D954A2381B8D6D7300A43451 /* HSFLuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D954A2371B8D6D7300A43451 /* HSFLuckViewController.m */; };
+		D975F5781B8D995A00977A2C /* HSFLuckEntryRouletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D975F5771B8D995A00977A2C /* HSFLuckEntryRouletteViewController.m */; };
+		D975F57B1B8DB52F00977A2C /* HSFDreamWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D975F57A1B8DB52F00977A2C /* HSFDreamWheelView.m */; };
+		D975F57D1B8DB54E00977A2C /* DreamWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D975F57C1B8DB54E00977A2C /* DreamWheelView.xib */; };
+		D975F5801B8DE43A00977A2C /* HSFLuckWhellBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D975F57F1B8DE43A00977A2C /* HSFLuckWhellBtn.m */; };
+		D9773EBE1B8BF04400FCD353 /* HSFBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9773EBD1B8BF04400FCD353 /* HSFBottomView.m */; };
+		D9773EC11B8BF53000FCD353 /* HSFBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9773EC01B8BF53000FCD353 /* HSFBottomButton.m */; };
+		D97C5F821B8B6C36000C455D /* HSFSporArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97C5F811B8B6C36000C455D /* HSFSporArenaViewController.m */; };
+		D9AF46201B8CB86700B35FD2 /* HSFGroupBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AF461F1B8CB86700B35FD2 /* HSFGroupBuyViewController.m */; };
+		D9FE1BF41B8B30660094EAAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1BF31B8B30660094EAAA /* main.m */; };
+		D9FE1BF71B8B30660094EAAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1BF61B8B30660094EAAA /* AppDelegate.m */; };
+		D9FE1BFF1B8B30660094EAAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1BFE1B8B30660094EAAA /* Images.xcassets */; };
+		D9FE1C0E1B8B30660094EAAA /* SportsLotteryTicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C0D1B8B30660094EAAA /* SportsLotteryTicketTests.m */; };
+		D9FE1C3B1B8B3D170094EAAA /* LotteryInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1C3A1B8B3D170094EAAA /* LotteryInformation.storyboard */; };
+		D9FE1C3D1B8B3D360094EAAA /* Hall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1C3C1B8B3D360094EAAA /* Hall.storyboard */; };
+		D9FE1C3F1B8B3D530094EAAA /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1C3E1B8B3D530094EAAA /* Guide.storyboard */; };
+		D9FE1C411B8B3D670094EAAA /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1C401B8B3D670094EAAA /* Discover.storyboard */; };
+		D9FE1C431B8B3D8B0094EAAA /* SporArena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1C421B8B3D8B0094EAAA /* SporArena.storyboard */; };
+		D9FE1C451B8B3DA20094EAAA /* MyLottery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE1C441B8B3DA20094EAAA /* MyLottery.storyboard */; };
+		D9FE1C511B8B40D10094EAAA /* HSFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C501B8B40D10094EAAA /* HSFTabBarViewController.m */; };
+		D9FE1C541B8B41BD0094EAAA /* HSFNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C531B8B41BD0094EAAA /* HSFNavgationController.m */; };
+		D9FE1C5A1B8B42790094EAAA /* HSFLotteryInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C591B8B42790094EAAA /* HSFLotteryInformationController.m */; };
+		D9FE1C5D1B8B42900094EAAA /* HSFDiscoverNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C5C1B8B42900094EAAA /* HSFDiscoverNavgationController.m */; };
+		D9FE1C601B8B429F0094EAAA /* HSFSorArenaNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C5F1B8B429F0094EAAA /* HSFSorArenaNavgationController.m */; };
+		D9FE1C631B8B42BA0094EAAA /* HSFHallNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C621B8B42BA0094EAAA /* HSFHallNavigationController.m */; };
+		D9FE1C661B8B44D20094EAAA /* HSFMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE1C651B8B44D20094EAAA /* HSFMyLotteryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9FE1C081B8B30660094EAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FE1BE61B8B30660094EAAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FE1BED1B8B30660094EAAA;
+			remoteInfo = SportsLotteryTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D91429561B8C94A900D384C5 /* HSFHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFHallTableViewController.h; sourceTree = "<group>"; };
+		D91429571B8C94A900D384C5 /* HSFHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFHallTableViewController.m; sourceTree = "<group>"; };
+		D954A22A1B8D4EEC00A43451 /* HSFDownArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSFDownArrow.h; path = ../Controllers/HSFDownArrow.h; sourceTree = "<group>"; };
+		D954A22B1B8D4EEC00A43451 /* HSFDownArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSFDownArrow.m; path = ../Controllers/HSFDownArrow.m; sourceTree = "<group>"; };
+		D954A2301B8D562C00A43451 /* UIView+HSFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HSFView.h"; sourceTree = "<group>"; };
+		D954A2311B8D562C00A43451 /* UIView+HSFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HSFView.m"; sourceTree = "<group>"; };
+		D954A2361B8D6D7300A43451 /* HSFLuckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFLuckViewController.h; sourceTree = "<group>"; };
+		D954A2371B8D6D7300A43451 /* HSFLuckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFLuckViewController.m; sourceTree = "<group>"; };
+		D975F5761B8D995A00977A2C /* HSFLuckEntryRouletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFLuckEntryRouletteViewController.h; sourceTree = "<group>"; };
+		D975F5771B8D995A00977A2C /* HSFLuckEntryRouletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFLuckEntryRouletteViewController.m; sourceTree = "<group>"; };
+		D975F5791B8DB52F00977A2C /* HSFDreamWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFDreamWheelView.h; sourceTree = "<group>"; };
+		D975F57A1B8DB52F00977A2C /* HSFDreamWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFDreamWheelView.m; sourceTree = "<group>"; };
+		D975F57C1B8DB54E00977A2C /* DreamWheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DreamWheelView.xib; sourceTree = "<group>"; };
+		D975F57E1B8DE43A00977A2C /* HSFLuckWhellBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFLuckWhellBtn.h; sourceTree = "<group>"; };
+		D975F57F1B8DE43A00977A2C /* HSFLuckWhellBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFLuckWhellBtn.m; sourceTree = "<group>"; };
+		D9773EBC1B8BF04400FCD353 /* HSFBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFBottomView.h; sourceTree = "<group>"; };
+		D9773EBD1B8BF04400FCD353 /* HSFBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFBottomView.m; sourceTree = "<group>"; };
+		D9773EBF1B8BF53000FCD353 /* HSFBottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFBottomButton.h; sourceTree = "<group>"; };
+		D9773EC01B8BF53000FCD353 /* HSFBottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFBottomButton.m; sourceTree = "<group>"; };
+		D97C5F801B8B6C36000C455D /* HSFSporArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFSporArenaViewController.h; sourceTree = "<group>"; };
+		D97C5F811B8B6C36000C455D /* HSFSporArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFSporArenaViewController.m; sourceTree = "<group>"; };
+		D9AF461E1B8CB86700B35FD2 /* HSFGroupBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFGroupBuyViewController.h; sourceTree = "<group>"; };
+		D9AF461F1B8CB86700B35FD2 /* HSFGroupBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFGroupBuyViewController.m; sourceTree = "<group>"; };
+		D9FE1BEE1B8B30660094EAAA /* SportsLotteryTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsLotteryTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FE1BF21B8B30660094EAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FE1BF31B8B30660094EAAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9FE1BF51B8B30660094EAAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		D9FE1BF61B8B30660094EAAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		D9FE1BFE1B8B30660094EAAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9FE1C071B8B30660094EAAA /* SportsLotteryTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsLotteryTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FE1C0C1B8B30660094EAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FE1C0D1B8B30660094EAAA /* SportsLotteryTicketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsLotteryTicketTests.m; sourceTree = "<group>"; };
+		D9FE1C3A1B8B3D170094EAAA /* LotteryInformation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LotteryInformation.storyboard; sourceTree = "<group>"; };
+		D9FE1C3C1B8B3D360094EAAA /* Hall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hall.storyboard; sourceTree = "<group>"; };
+		D9FE1C3E1B8B3D530094EAAA /* Guide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
+		D9FE1C401B8B3D670094EAAA /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		D9FE1C421B8B3D8B0094EAAA /* SporArena.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SporArena.storyboard; sourceTree = "<group>"; };
+		D9FE1C441B8B3DA20094EAAA /* MyLottery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyLottery.storyboard; sourceTree = "<group>"; };
+		D9FE1C4F1B8B40D10094EAAA /* HSFTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFTabBarViewController.h; sourceTree = "<group>"; };
+		D9FE1C501B8B40D10094EAAA /* HSFTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFTabBarViewController.m; sourceTree = "<group>"; };
+		D9FE1C521B8B41BD0094EAAA /* HSFNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFNavgationController.h; sourceTree = "<group>"; };
+		D9FE1C531B8B41BD0094EAAA /* HSFNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFNavgationController.m; sourceTree = "<group>"; };
+		D9FE1C581B8B42790094EAAA /* HSFLotteryInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFLotteryInformationController.h; sourceTree = "<group>"; };
+		D9FE1C591B8B42790094EAAA /* HSFLotteryInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFLotteryInformationController.m; sourceTree = "<group>"; };
+		D9FE1C5B1B8B42900094EAAA /* HSFDiscoverNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFDiscoverNavgationController.h; sourceTree = "<group>"; };
+		D9FE1C5C1B8B42900094EAAA /* HSFDiscoverNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFDiscoverNavgationController.m; sourceTree = "<group>"; };
+		D9FE1C5E1B8B429F0094EAAA /* HSFSorArenaNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFSorArenaNavgationController.h; sourceTree = "<group>"; };
+		D9FE1C5F1B8B429F0094EAAA /* HSFSorArenaNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFSorArenaNavgationController.m; sourceTree = "<group>"; };
+		D9FE1C611B8B42BA0094EAAA /* HSFHallNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFHallNavigationController.h; sourceTree = "<group>"; };
+		D9FE1C621B8B42BA0094EAAA /* HSFHallNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFHallNavigationController.m; sourceTree = "<group>"; };
+		D9FE1C641B8B44D20094EAAA /* HSFMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFMyLotteryViewController.h; sourceTree = "<group>"; };
+		D9FE1C651B8B44D20094EAAA /* HSFMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFMyLotteryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9FE1BEB1B8B30660094EAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FE1C041B8B30660094EAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9FE1BE51B8B30660094EAAA = {
+			isa = PBXGroup;
+			children = (
+				D9FE1BF01B8B30660094EAAA /* SportsLotteryTicket */,
+				D9FE1C0A1B8B30660094EAAA /* SportsLotteryTicketTests */,
+				D9FE1BEF1B8B30660094EAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9FE1BEF1B8B30660094EAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1BEE1B8B30660094EAAA /* SportsLotteryTicket.app */,
+				D9FE1C071B8B30660094EAAA /* SportsLotteryTicketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9FE1BF01B8B30660094EAAA /* SportsLotteryTicket */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C211B8B3ABF0094EAAA /* Hall(购票大厅) */,
+				D9FE1C351B8B3ABF0094EAAA /* SporArena(竞技场） */,
+				D9FE1C171B8B3ABF0094EAAA /* Discover(发现) */,
+				D9FE1C261B8B3ABF0094EAAA /* LotteryInformation(开奖信息) */,
+				D9FE1C301B8B3ABF0094EAAA /* MyLottery(我的彩票) */,
+				D9FE1C1C1B8B3ABF0094EAAA /* Guide(新特性) */,
+				D9FE1C2B1B8B3ABF0094EAAA /* MainFramework(主框架) */,
+				D9FE1BF11B8B30660094EAAA /* Supporting Files */,
+			);
+			path = SportsLotteryTicket;
+			sourceTree = "<group>";
+		};
+		D9FE1BF11B8B30660094EAAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1BFE1B8B30660094EAAA /* Images.xcassets */,
+				D9FE1BF21B8B30660094EAAA /* Info.plist */,
+				D9FE1BF31B8B30660094EAAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FE1C0A1B8B30660094EAAA /* SportsLotteryTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C0D1B8B30660094EAAA /* SportsLotteryTicketTests.m */,
+				D9FE1C0B1B8B30660094EAAA /* Supporting Files */,
+			);
+			path = SportsLotteryTicketTests;
+			sourceTree = "<group>";
+		};
+		D9FE1C0B1B8B30660094EAAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C0C1B8B30660094EAAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FE1C171B8B3ABF0094EAAA /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C181B8B3ABF0094EAAA /* Controllers */,
+				D9FE1C191B8B3ABF0094EAAA /* Models */,
+				D9FE1C1A1B8B3ABF0094EAAA /* Others */,
+				D9FE1C1B1B8B3ABF0094EAAA /* Views */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		D9FE1C181B8B3ABF0094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C5B1B8B42900094EAAA /* HSFDiscoverNavgationController.h */,
+				D9FE1C5C1B8B42900094EAAA /* HSFDiscoverNavgationController.m */,
+				D9AF461E1B8CB86700B35FD2 /* HSFGroupBuyViewController.h */,
+				D9AF461F1B8CB86700B35FD2 /* HSFGroupBuyViewController.m */,
+				D954A2361B8D6D7300A43451 /* HSFLuckViewController.h */,
+				D954A2371B8D6D7300A43451 /* HSFLuckViewController.m */,
+				D975F5761B8D995A00977A2C /* HSFLuckEntryRouletteViewController.h */,
+				D975F5771B8D995A00977A2C /* HSFLuckEntryRouletteViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C191B8B3ABF0094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9FE1C1A1B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C1B1B8B3ABF0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D954A22A1B8D4EEC00A43451 /* HSFDownArrow.h */,
+				D954A22B1B8D4EEC00A43451 /* HSFDownArrow.m */,
+				D9FE1C401B8B3D670094EAAA /* Discover.storyboard */,
+				D975F5791B8DB52F00977A2C /* HSFDreamWheelView.h */,
+				D975F57A1B8DB52F00977A2C /* HSFDreamWheelView.m */,
+				D975F57C1B8DB54E00977A2C /* DreamWheelView.xib */,
+				D975F57E1B8DE43A00977A2C /* HSFLuckWhellBtn.h */,
+				D975F57F1B8DE43A00977A2C /* HSFLuckWhellBtn.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C1C1B8B3ABF0094EAAA /* Guide(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C1D1B8B3ABF0094EAAA /* Controllers */,
+				D9FE1C1E1B8B3ABF0094EAAA /* Models */,
+				D9FE1C1F1B8B3ABF0094EAAA /* Others */,
+				D9FE1C201B8B3ABF0094EAAA /* Views */,
+			);
+			path = "Guide(新特性)";
+			sourceTree = "<group>";
+		};
+		D9FE1C1D1B8B3ABF0094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C1E1B8B3ABF0094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9FE1C1F1B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C201B8B3ABF0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C3E1B8B3D530094EAAA /* Guide.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C211B8B3ABF0094EAAA /* Hall(购票大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C221B8B3ABF0094EAAA /* Controllers */,
+				D9FE1C231B8B3ABF0094EAAA /* Models */,
+				D9FE1C241B8B3ABF0094EAAA /* Others */,
+				D9FE1C251B8B3ABF0094EAAA /* Views */,
+			);
+			path = "Hall(购票大厅)";
+			sourceTree = "<group>";
+		};
+		D9FE1C221B8B3ABF0094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C611B8B42BA0094EAAA /* HSFHallNavigationController.h */,
+				D9FE1C621B8B42BA0094EAAA /* HSFHallNavigationController.m */,
+				D91429561B8C94A900D384C5 /* HSFHallTableViewController.h */,
+				D91429571B8C94A900D384C5 /* HSFHallTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C231B8B3ABF0094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9FE1C241B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C251B8B3ABF0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C3C1B8B3D360094EAAA /* Hall.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C261B8B3ABF0094EAAA /* LotteryInformation(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C271B8B3ABF0094EAAA /* Controllers */,
+				D9FE1C281B8B3ABF0094EAAA /* Models */,
+				D9FE1C291B8B3ABF0094EAAA /* Others */,
+				D9FE1C2A1B8B3ABF0094EAAA /* Views */,
+			);
+			path = "LotteryInformation(开奖信息)";
+			sourceTree = "<group>";
+		};
+		D9FE1C271B8B3ABF0094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C581B8B42790094EAAA /* HSFLotteryInformationController.h */,
+				D9FE1C591B8B42790094EAAA /* HSFLotteryInformationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C281B8B3ABF0094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9FE1C291B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C2A1B8B3ABF0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C3A1B8B3D170094EAAA /* LotteryInformation.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C2B1B8B3ABF0094EAAA /* MainFramework(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C4B1B8B3FD60094EAAA /* Models */,
+				D9FE1C4A1B8B3FCE0094EAAA /* Views */,
+				D9FE1C491B8B3FB20094EAAA /* Controllers */,
+				D9FE1C2E1B8B3ABF0094EAAA /* Others */,
+			);
+			path = "MainFramework(主框架)";
+			sourceTree = "<group>";
+		};
+		D9FE1C2E1B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1BF51B8B30660094EAAA /* AppDelegate.h */,
+				D9FE1BF61B8B30660094EAAA /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C301B8B3ABF0094EAAA /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C311B8B3ABF0094EAAA /* Controllers */,
+				D9FE1C321B8B3ABF0094EAAA /* Models */,
+				D9FE1C331B8B3ABF0094EAAA /* Others */,
+				D9FE1C341B8B3ABF0094EAAA /* Views */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		D9FE1C311B8B3ABF0094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C641B8B44D20094EAAA /* HSFMyLotteryViewController.h */,
+				D9FE1C651B8B44D20094EAAA /* HSFMyLotteryViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C321B8B3ABF0094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9FE1C331B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C341B8B3ABF0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C441B8B3DA20094EAAA /* MyLottery.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C351B8B3ABF0094EAAA /* SporArena(竞技场） */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C361B8B3ABF0094EAAA /* Controllers */,
+				D9FE1C371B8B3ABF0094EAAA /* Models */,
+				D9FE1C381B8B3ABF0094EAAA /* Others */,
+				D9FE1C391B8B3ABF0094EAAA /* Views */,
+			);
+			name = "SporArena(竞技场）";
+			path = "SporArena（竞技场）";
+			sourceTree = "<group>";
+		};
+		D9FE1C361B8B3ABF0094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C5E1B8B429F0094EAAA /* HSFSorArenaNavgationController.h */,
+				D9FE1C5F1B8B429F0094EAAA /* HSFSorArenaNavgationController.m */,
+				D97C5F801B8B6C36000C455D /* HSFSporArenaViewController.h */,
+				D97C5F811B8B6C36000C455D /* HSFSporArenaViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C371B8B3ABF0094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9FE1C381B8B3ABF0094EAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9FE1C391B8B3ABF0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C421B8B3D8B0094EAAA /* SporArena.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C491B8B3FB20094EAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE1C4F1B8B40D10094EAAA /* HSFTabBarViewController.h */,
+				D9FE1C501B8B40D10094EAAA /* HSFTabBarViewController.m */,
+				D9FE1C521B8B41BD0094EAAA /* HSFNavgationController.h */,
+				D9FE1C531B8B41BD0094EAAA /* HSFNavgationController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D9FE1C4A1B8B3FCE0094EAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9773EBC1B8BF04400FCD353 /* HSFBottomView.h */,
+				D9773EBD1B8BF04400FCD353 /* HSFBottomView.m */,
+				D9773EBF1B8BF53000FCD353 /* HSFBottomButton.h */,
+				D9773EC01B8BF53000FCD353 /* HSFBottomButton.m */,
+				D954A2301B8D562C00A43451 /* UIView+HSFView.h */,
+				D954A2311B8D562C00A43451 /* UIView+HSFView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D9FE1C4B1B8B3FD60094EAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9FE1BED1B8B30660094EAAA /* SportsLotteryTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FE1C111B8B30660094EAAA /* Build configuration list for PBXNativeTarget "SportsLotteryTicket" */;
+			buildPhases = (
+				D9FE1BEA1B8B30660094EAAA /* Sources */,
+				D9FE1BEB1B8B30660094EAAA /* Frameworks */,
+				D9FE1BEC1B8B30660094EAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsLotteryTicket;
+			productName = SportsLotteryTicket;
+			productReference = D9FE1BEE1B8B30660094EAAA /* SportsLotteryTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9FE1C061B8B30660094EAAA /* SportsLotteryTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FE1C141B8B30660094EAAA /* Build configuration list for PBXNativeTarget "SportsLotteryTicketTests" */;
+			buildPhases = (
+				D9FE1C031B8B30660094EAAA /* Sources */,
+				D9FE1C041B8B30660094EAAA /* Frameworks */,
+				D9FE1C051B8B30660094EAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FE1C091B8B30660094EAAA /* PBXTargetDependency */,
+			);
+			name = SportsLotteryTicketTests;
+			productName = SportsLotteryTicketTests;
+			productReference = D9FE1C071B8B30660094EAAA /* SportsLotteryTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9FE1BE61B8B30660094EAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HSF;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = HSF;
+				TargetAttributes = {
+					D9FE1BED1B8B30660094EAAA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D9FE1C061B8B30660094EAAA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D9FE1BED1B8B30660094EAAA;
+					};
+				};
+			};
+			buildConfigurationList = D9FE1BE91B8B30660094EAAA /* Build configuration list for PBXProject "SportsLotteryTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9FE1BE51B8B30660094EAAA;
+			productRefGroup = D9FE1BEF1B8B30660094EAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9FE1BED1B8B30660094EAAA /* SportsLotteryTicket */,
+				D9FE1C061B8B30660094EAAA /* SportsLotteryTicketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9FE1BEC1B8B30660094EAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FE1C3F1B8B3D530094EAAA /* Guide.storyboard in Resources */,
+				D9FE1C3B1B8B3D170094EAAA /* LotteryInformation.storyboard in Resources */,
+				D9FE1C3D1B8B3D360094EAAA /* Hall.storyboard in Resources */,
+				D9FE1C451B8B3DA20094EAAA /* MyLottery.storyboard in Resources */,
+				D975F57D1B8DB54E00977A2C /* DreamWheelView.xib in Resources */,
+				D9FE1C431B8B3D8B0094EAAA /* SporArena.storyboard in Resources */,
+				D9FE1BFF1B8B30660094EAAA /* Images.xcassets in Resources */,
+				D9FE1C411B8B3D670094EAAA /* Discover.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FE1C051B8B30660094EAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9FE1BEA1B8B30660094EAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D975F5801B8DE43A00977A2C /* HSFLuckWhellBtn.m in Sources */,
+				D9FE1C511B8B40D10094EAAA /* HSFTabBarViewController.m in Sources */,
+				D975F57B1B8DB52F00977A2C /* HSFDreamWheelView.m in Sources */,
+				D9FE1C601B8B429F0094EAAA /* HSFSorArenaNavgationController.m in Sources */,
+				D9773EC11B8BF53000FCD353 /* HSFBottomButton.m in Sources */,
+				D9FE1BF71B8B30660094EAAA /* AppDelegate.m in Sources */,
+				D975F5781B8D995A00977A2C /* HSFLuckEntryRouletteViewController.m in Sources */,
+				D9FE1C5A1B8B42790094EAAA /* HSFLotteryInformationController.m in Sources */,
+				D9FE1C661B8B44D20094EAAA /* HSFMyLotteryViewController.m in Sources */,
+				D954A22C1B8D4EEC00A43451 /* HSFDownArrow.m in Sources */,
+				D9FE1BF41B8B30660094EAAA /* main.m in Sources */,
+				D9FE1C5D1B8B42900094EAAA /* HSFDiscoverNavgationController.m in Sources */,
+				D954A2321B8D562C00A43451 /* UIView+HSFView.m in Sources */,
+				D9FE1C631B8B42BA0094EAAA /* HSFHallNavigationController.m in Sources */,
+				D97C5F821B8B6C36000C455D /* HSFSporArenaViewController.m in Sources */,
+				D954A2381B8D6D7300A43451 /* HSFLuckViewController.m in Sources */,
+				D9FE1C541B8B41BD0094EAAA /* HSFNavgationController.m in Sources */,
+				D91429581B8C94A900D384C5 /* HSFHallTableViewController.m in Sources */,
+				D9773EBE1B8BF04400FCD353 /* HSFBottomView.m in Sources */,
+				D9AF46201B8CB86700B35FD2 /* HSFGroupBuyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FE1C031B8B30660094EAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FE1C0E1B8B30660094EAAA /* SportsLotteryTicketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9FE1C091B8B30660094EAAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FE1BED1B8B30660094EAAA /* SportsLotteryTicket */;
+			targetProxy = D9FE1C081B8B30660094EAAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9FE1C0F1B8B30660094EAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9FE1C101B8B30660094EAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9FE1C121B8B30660094EAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SportsLotteryTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9FE1C131B8B30660094EAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SportsLotteryTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9FE1C151B8B30660094EAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SportsLotteryTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsLotteryTicket.app/SportsLotteryTicket";
+			};
+			name = Debug;
+		};
+		D9FE1C161B8B30660094EAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SportsLotteryTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsLotteryTicket.app/SportsLotteryTicket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9FE1BE91B8B30660094EAAA /* Build configuration list for PBXProject "SportsLotteryTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FE1C0F1B8B30660094EAAA /* Debug */,
+				D9FE1C101B8B30660094EAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FE1C111B8B30660094EAAA /* Build configuration list for PBXNativeTarget "SportsLotteryTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FE1C121B8B30660094EAAA /* Debug */,
+				D9FE1C131B8B30660094EAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FE1C141B8B30660094EAAA /* Build configuration list for PBXNativeTarget "SportsLotteryTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FE1C151B8B30660094EAAA /* Debug */,
+				D9FE1C161B8B30660094EAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9FE1BE61B8B30660094EAAA /* Project object */;
+}

@@ -1,0 +1,21 @@
+//
+//  HSFDreamWheelView.h
+//  SportsLotteryTicket
+//
+//  Created by 胡双飞 on 15/8/26.
+//  Copyright (c) 2015年 HSF. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface HSFDreamWheelView : UIView
+/**
+ *  快速创建view
+ */
++(instancetype)dreamWheelView;
+
+/**
+ *  开始动画（转动动画）
+ */
+- (void)startAnimation;
+@end
