@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string>开启购彩提醒后，我们会定期给你推送购票的最新动态。谢谢您对我们产品的支持！</string>
+		<key>item</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>购彩提醒</string>
+				<key>accessoryView</key>
+				<string>UISwitch</string>
+				<key>switchKey</key>
+				<string>buy_remind</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string>开启比分直播推送送后，我们会定时给你推送比赛直播推送。谢谢您对我们产品的支持！</string>
+		<key>item</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>推送我关注的比赛</string>
+				<key>accessoryView</key>
+				<string>UISwitch</string>
+				<key>switchKey</key>
+				<string>live_match</string>
+				<key>cellStyle</key>
+				<string>UITableViewCellStyleSubtitle</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>只在以下时段内接受比赛推送</string>
+		<key>footer</key>
+		<string></string>
+		<key>item</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>起始时间</string>
+				<key>title_detail</key>
+				<string>00:00</string>
+				<key>title_detail_currentTime</key>
+				<string>live_beginTime</string>
+				<key>title_detail_color</key>
+				<string>redColor</string>
+				<key>cellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>item</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>结束时间</string>
+				<key>title_detail</key>
+				<string>23:59</string>
+				<key>title_detail_currentTime</key>
+				<string>live_endTime</string>
+				<key>title_detail_color</key>
+				<string>redColor</string>
+				<key>cellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

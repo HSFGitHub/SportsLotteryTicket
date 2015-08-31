@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>item</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>开奖推送</string>
+				<key>targeVC</key>
+				<string>HSFSettingVC</string>
+				<key>targeVCPlist</key>
+				<string>PushAndRemind_Open</string>
+				<key>accessoryViewIcon</key>
+				<string>arrow_right</string>
+				<key>accessoryView</key>
+				<string>UIImageView</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>比赛直播推送</string>
+				<key>accessoryView</key>
+				<string>UIImageView</string>
+				<key>accessoryViewIcon</key>
+				<string>arrow_right</string>
+				<key>targeVC</key>
+				<string>HSFPushAndRemindVC</string>
+				<key>targeVCPlist</key>
+				<string>PushAndRemind_Live</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>中奖动画</string>
+				<key>accessoryView</key>
+				<string>UIImageView</string>
+				<key>accessoryViewIcon</key>
+				<string>arrow_right</string>
+				<key>targeVC</key>
+				<string>HSFSettingVC</string>
+				<key>targeVCPlist</key>
+				<string>PushAndRemind_Animation</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>购彩提醒</string>
+				<key>accessoryView</key>
+				<string>UIImageView</string>
+				<key>accessoryViewIcon</key>
+				<string>arrow_right</string>
+				<key>targeVC</key>
+				<string>HSFSettingVC</string>
+				<key>targeVCPlist</key>
+				<string>PushAndRemind_Buy</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

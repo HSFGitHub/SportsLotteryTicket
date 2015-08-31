@@ -8,6 +8,6 @@
 
 #import "HSFNavgationController.h"
 
-@interface HSFMyLotteryViewController : HSFNavgationController
+@interface HSFMyLotteryNavController : HSFNavgationController
 
 @end

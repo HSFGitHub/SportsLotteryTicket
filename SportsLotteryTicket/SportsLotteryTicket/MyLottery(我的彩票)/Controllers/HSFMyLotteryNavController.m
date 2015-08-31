@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 HSF. All rights reserved.
 //
 
-#import "HSFMyLotteryViewController.h"
+#import "HSFMyLotteryNavController.h"
 
-@interface HSFMyLotteryViewController ()
+@interface HSFMyLotteryNavController ()
 
 @end
 
-@implementation HSFMyLotteryViewController
+@implementation HSFMyLotteryNavController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
