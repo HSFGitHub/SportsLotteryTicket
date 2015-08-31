@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string>设置右侧的按钮，可以开启/关闭我们的中奖动画，感谢您对我们产品的支持！</string>
+		<key>item</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>中奖动画</string>
+				<key>accessoryView</key>
+				<string>UISwitch</string>
+				<key>switchKey</key>
+				<string>animation_Lottery</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
